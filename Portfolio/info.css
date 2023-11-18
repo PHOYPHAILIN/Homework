@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(2, 2, 28);
+    color: #fff;
+}
+
+h1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 80px;
+}
+
+.skill-area{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20%;
+
+}
+.skill{
+    position: relative;
+    margin-bottom: 40px;
+}
+.skill-title{
+    font-size: 40px;
+    margin-top: 10px;
+}
+.skill-bar{
+    width: 100%;
+    background: #dab5b5;
+    height: 40px;
+    z-index: -1;
+    border-radius: 100px;
+    position: absolute;
+}
+.skill-fill{
+    background: #7247d7;
+    height: 40px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;
+    overflow: hidden;
+}
+.skill-percent{
+    font-size: 30px;
+}
+
+.html{
+    animation: html 2s;
+    width: 50%;
+}
+
+.css{
+    animation: html 2s;
+    width: 40%;
+}
+
+.js{
+    animation: html 2s;
+    width: 20%;
+}
+.figma{
+    animation: html 2s;
+    width: 40%;
+}
+.c{
+    animation: html 2s;
+    width: 50%;
+}
